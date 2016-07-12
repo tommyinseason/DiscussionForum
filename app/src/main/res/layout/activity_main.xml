@@ -32,6 +32,11 @@
         android:layout_alignLeft="@+id/addNewTopicButton"
         android:layout_alignStart="@+id/addNewTopicButton" />
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
